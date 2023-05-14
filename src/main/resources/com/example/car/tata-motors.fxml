@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car.TataController">
+   <children>
+      <JFXButton alignment="TOP_CENTER" layoutX="29.0" layoutY="14.0" prefHeight="197.0" prefWidth="309.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="tataNano" fitHeight="154.0" fitWidth="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/tata-nano.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" layoutX="435.0" layoutY="14.0" prefHeight="197.0" prefWidth="309.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="tataNexon" fitHeight="222.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/tata-nexon.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" layoutX="29.0" layoutY="222.0" prefHeight="197.0" prefWidth="309.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="tataPunch" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/Tata-Punch.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" layoutX="435.0" layoutY="222.0" prefHeight="197.0" prefWidth="309.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="tataTigor" fitHeight="153.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/tata-tigor.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="exitBtn" layoutX="761.0" layoutY="14.0" onAction="#exit" style="-fx-background-color: grey; -fx-background-radius: 25;" text="X" />
+      <Label layoutX="142.0" layoutY="166.0" text="Tata-Nano" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="547.0" layoutY="159.0" text="Tata-Nexon" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="551.0" layoutY="380.0" text="Tata-Tigor" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="380.0" text="Tata-Punch" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="186.0" text="4.7/5" textFill="#36f820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="573.0" layoutY="184.0" prefHeight="27.0" prefWidth="41.0" text="4.9/5" textFill="#36f820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="380.0" prefHeight="27.0" prefWidth="41.0" text="4.2/5" textFill="#6fc364">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="640.0" layoutY="380.0" prefHeight="27.0" prefWidth="41.0" text="4.9/5" textFill="#36f820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

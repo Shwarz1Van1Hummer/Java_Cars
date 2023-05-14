@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="home" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car.MachineController">
+   <children>
+      <JFXButton fx:id="maruti" layoutX="25.0" layoutY="5.0" onAction="#marutiAction" prefHeight="212.0" prefWidth="331.0" style="-fx-border-color: black; -fx-border-radius: 16; -fx-background-color: #36394E; -fx-background-radius: 16;" text=" ">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fx:id="suzukiImg" fitHeight="157.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/maruti-group-m.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="128.0" layoutY="185.0" text="Maruti suzuki" textFill="#fcfcfc">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="huyndaiBtn" layoutX="418.0" layoutY="5.0" onAction="#huyndaiAction" prefHeight="212.0" prefWidth="362.0" style="-fx-border-color: black; -fx-border-radius: 16; -fx-background-color: #36394E; -fx-background-radius: 16;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fx:id="huyndaiImg" fitHeight="157.0" fitWidth="328.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/hyundai.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="tataBtn" layoutX="26.0" layoutY="223.0" onAction="#tataAction" prefHeight="195.0" prefWidth="331.0" style="-fx-border-color: black; -fx-border-radius: 16; -fx-background-color: #36394E; -fx-background-radius: 16;" text=" ">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fx:id="tataImg" fitHeight="148.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/2021-Tata-Motors-Founders-Edition-Tiago-Altroz-Nexon-.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="chevroletBtn" layoutX="421.0" layoutY="223.0" onAction="#chevroletAction" prefHeight="195.0" prefWidth="354.0" style="-fx-border-color: black; -fx-border-radius: 16; -fx-background-color: #36394E; -fx-background-radius: 16;" text=" ">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fx:id="chevroletImg" fitHeight="137.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/chevrolet.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="559.0" layoutY="191.0" text="Huyndai " textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="392.0" text="Tata Motors" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="554.0" layoutY="387.0" text="Chevrolet" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

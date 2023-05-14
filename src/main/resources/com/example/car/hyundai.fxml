@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car.HuyndaiController">
+   <children>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="70.0" layoutY="14.0" prefHeight="197.0" prefWidth="261.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="tucsonImg" fitHeight="158.0" fitWidth="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/tucson.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="439.0" layoutY="14.0" prefHeight="197.0" prefWidth="261.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="bayonImg" fitHeight="148.0" fitWidth="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/bayon.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="70.0" layoutY="220.0" prefHeight="197.0" prefWidth="261.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="elantraImg" fitHeight="142.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/elantra.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="439.0" layoutY="220.0" prefHeight="197.0" prefWidth="261.0" style="-fx-background-color: darkblue;" text=" ">
+         <graphic>
+            <ImageView fx:id="sonataImg" fitHeight="149.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Images/sonata.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="137.0" layoutY="167.0" text="Hyundai Tucson" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="159.0" text="Huyndai Bayon" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="363.0" text="Huyndai Elantra" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="507.0" layoutY="373.0" text="Huyndai Sonata" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="188.0" text="4.21/5" textFill="#00ff55">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="181.0" text="4.87/5" textFill="#00ff55">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="391.0" text="3.85/5" textFill="#b4ff00">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="394.0" text="4.50/5" textFill="#00ff55">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="homeBtn" layoutX="748.0" layoutY="11.0" onAction="#home" style="-fx-background-color: Grey; -fx-background-radius: 15;" text="X" />
+   </children>
+</AnchorPane>
